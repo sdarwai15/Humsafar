@@ -19,3 +19,7 @@ client/.vercel
 # typescript
 client/*.tsbuildinfo
 client/next-env.d.ts
+
+# misc
+client/.DS_Store
+client/*.pem
