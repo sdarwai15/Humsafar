@@ -32,16 +32,17 @@ const Button: React.FC<ButtonProps> = ({
                 hover:opacity-80
                 transition
                 w-full
+				py-3
                 ${
-									outline
-										? "bg-white border-black text-black"
-										: "bg-primary border-primary text-white"
-								}
+					outline
+						? "bg-white border-black text-black"
+						: "bg-primary border-primary text-white"
+				}
                 ${
-									small
-										? "py-1 px-4 text-sm font-light border-[1px]"
-										: "py-3 px-6 text-md font-semibold border-2"
-								}
+					small
+						? "px-4 text-sm font-light border-[1px]"
+						: "px-6 text-md font-semibold border-2"
+				}
             `}
 		>
 			{Icon && (
@@ -51,7 +52,7 @@ const Button: React.FC<ButtonProps> = ({
                         left-4
                         top-3
                     `}
-					size={24}
+					size={20}
 				/>
 			)}
 			{label}
