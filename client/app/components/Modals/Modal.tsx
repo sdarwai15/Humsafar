@@ -159,6 +159,7 @@ const Modal: React.FC<ModalProps> = ({
                                         items-center 
                                         gap-4 
                                         w-full
+										-mt-4
                                     "
 								>
 									{secondaryAction && secondaryActionLabel && (
