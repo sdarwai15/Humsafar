@@ -2,6 +2,7 @@
 
 # dependencies
 client/node_modules
+server/node_modules
 
 # next.js
 client/.next/
@@ -12,6 +13,7 @@ client/build
 
 # local env files
 client/.env*.local
+server/src/config/.env
 
 # vercel
 client/.vercel
