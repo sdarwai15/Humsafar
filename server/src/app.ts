@@ -7,7 +7,7 @@ import path from 'path';
 import cors from 'cors';
 import hpp from 'hpp';
 
-import { Routes } from './interfaces/route.interface';
+import { Routes } from './interfaces/routes.interface';
 import errorMiddleware from './middlewares/error.middleware';
 
 class App {

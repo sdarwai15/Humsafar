@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { Routes } from '../interfaces/route.interface';
+import { Routes } from '../interfaces/routes.interface';
 
 class AuthRoute implements Routes {
 	public path = '/auth';
